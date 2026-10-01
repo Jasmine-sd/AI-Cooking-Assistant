@@ -1,0 +1,6 @@
+{
+  "name": "AI Cooking Assistant",
+  "description": "An intelligent personal cooking companion with hands-free voice Cook With Me mode, dynamic recipe personalization, ingredient matching, mistake recovery, and multilingual support.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
