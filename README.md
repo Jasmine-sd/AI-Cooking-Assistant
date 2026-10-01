@@ -1,6 +1,6 @@
-# AI Cooking Assistant 🍳
+# AI Cooking Assistant
 
-An intelligent, full-featured cooking companion with hands-free voice-guided "Cook With Me" mode, dynamic recipe personalization, ingredient matching, mistake recovery, deterministic serving scaling, and multilingual support (English, Telugu, Hindi, Spanish).
+An intelligent AI-powered cooking companion designed to make cooking easier, more personalized, and interactive. It helps users discover recipes, match available ingredients, scale servings, recover from cooking mistakes, and follow step-by-step cooking guidance.
 
 ## 📸 Project Preview
 
@@ -8,53 +8,91 @@ An intelligent, full-featured cooking companion with hands-free voice-guided "Co
 
 ## ✨ Key Features
 
-- **Hands-Free "Cook With Me" Studio**: Step-by-step full-screen cooking mode with voice narration, step navigation, interactive timers, and authentic high-resolution culinary photography.
-- **Top 4 Famous Recipes**: Instant 1-click access to Pani Puri, Hyderabadi Dum Biryani, Golden Crispy Masala Dosa, and Molten Chocolate Lava Cake.
-- **Restaurant Menu & Recipes**: Filterable specialty catalog covering Breakfast, Chef's Mains, Street Food, Royal Sweets, and Quick Under 30-minute meals.
-- **Smart Pantry Matcher ("What Can I Cook?")**: Enter ingredients in your fridge/pantry to discover delicious matches with substitution intelligence and pantry staples detection.
-- **Dynamic Math & Mistake Rescue**: Deterministic ingredient scaling from 1 to 24 servings, Restaurant vs. Homestyle mode adjustments, and actionable culinary recovery guides.
-- **Multilingual Kitchen**: Full voice narration and translations for English, Telugu (తెలుగు), Hindi (हिंदी), and Spanish (Español).
-- **Personalized Taste Profiles & Demo Mode**: One-click demo login (`Demo Chef`) and custom user preference tracking.
+- **🤖 AI-Powered Recipe Assistant** — Generates and recommends recipes based on user preferences and available ingredients.
 
----
+- **🥕 Smart Pantry Matcher** — Enter ingredients available in your pantry and discover suitable recipes with intelligent ingredient matching and substitution suggestions.
 
-## 🚀 Getting Started
+- **👨‍🍳 Cook With Me** — Hands-free, step-by-step cooking mode with voice guidance, step navigation, and interactive timers.
 
-### 1. Prerequisites
-- **Node.js** (v18 or higher recommended)
-- **npm** (v9 or higher)
+- **⚖️ Smart Serving Scaling** — Automatically adjusts ingredient quantities based on the selected number of servings.
 
-### 2. Installation
-```bash
-# Clone the repository
-git clone <your-repo-url>
-cd <your-repo-folder>
+- **🛟 Cooking Mistake Recovery** — Provides practical suggestions and recovery steps when common cooking mistakes occur.
 
-# Install dependencies
-npm install
-```
+- **🌍 Multilingual Kitchen** — Supports English, Telugu (తెలుగు), Hindi (हिंदी), and Spanish (Español) for a more accessible cooking experience.
 
-### 3. Environment Variables
-Copy `.env.example` to `.env` (optional, for Gemini AI custom recipe generation):
-```bash
-cp .env.example .env
-```
+- **🍽️ Recipe Discovery** — Explore recipes across different cuisines, categories, dietary preferences, difficulty levels, and cooking times.
 
-### 4. Running the Development Server
-```bash
-npm run dev
-```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+- **❤️ Personalized Experience** — Save favorite recipes and maintain personalized cooking preferences.
 
-### 5. Building for Production
-```bash
-npm run build
-npm run start
-```
+- **🎯 Demo Mode** — Quickly explore the application's features through a convenient demo experience.
 
----
+## 🧠 How It Works
+
+```text
+User Input
+    ↓
+Ingredient / Recipe Analysis
+    ↓
+AI Recipe Recommendation
+    ↓
+Personalized Recipe
+    ↓
+Smart Ingredient Scaling
+    ↓
+Step-by-Step Cooking Guidance
+    ↓
+Voice-Assisted "Cook With Me"
+````
+
+## 🌟 Highlights
+
+* AI-powered recipe recommendations
+* Ingredient-aware recipe matching
+* Personalized cooking suggestions
+* Automatic ingredient scaling
+* Voice-guided cooking assistance
+* Interactive cooking timers
+* Multilingual support
+* Cooking mistake recovery
+* Recipe discovery and filtering
+* Personalized favorites and preferences
+* Responsive and modern user interface
 
 ## 🛠️ Tech Stack
-- **Frontend**: React 19, TypeScript, Vite, Tailwind CSS, Lucide Icons, Motion
-- **Backend**: Node.js, Express, tsx
-- **Audio/Speech**: Web Speech API & HTML5 Audio
+
+### Frontend
+
+* React 19
+* TypeScript
+* Vite
+* Tailwind CSS
+* Lucide Icons
+* Motion
+
+### Backend
+
+* Node.js
+* Express
+* TypeScript
+* tsx
+
+### AI & Interaction
+
+* AI-powered recipe generation
+* Web Speech API
+* HTML5 Audio
+* Multilingual voice assistance
+
+## 🎯 Project Goal
+
+The goal of **AI Cooking Assistant** is to combine **AI, personalization, voice interaction, and practical cooking guidance** into a single easy-to-use culinary companion.
+
+It aims to make recipe discovery and cooking more convenient by adapting to what users have, what they prefer, and how they cook.
+
+## 👩‍💻 Author
+
+**Jasmine**
+
+Built with ❤️ using React, TypeScript, Node.js, and AI.
+
+
